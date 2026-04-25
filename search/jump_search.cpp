@@ -50,6 +50,10 @@ int main() {
     int index = jumpSearch(arr, x, n);
 
     // Print the index where 'x' is located
-    std::cout << "\nNumber " << x << " is at index " << index;
+    if (index != -1) {
+    std::cout << "\nNumber " << x << " found at index " << index << std::endl;
+} else {
+    std::cout << "\nNumber not found in array" << std::endl;
+}
     return 0;
 }
