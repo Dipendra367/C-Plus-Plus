@@ -57,7 +57,7 @@ static void tests() {
     assert(LinearSearch(array, size, 1) == 1);
     assert(LinearSearch(array, size, 5) == 5);
 
-    std::cout << "All tests have successfully passed!\n";
+    std::cout << "All linear search tests passed successfully!\n";
     delete[] array;  // free memory up
 }
 
