@@ -100,7 +100,7 @@ static void test1() {
     uint64_t derived_ans = search::binary_search::binarySearch(arr, 4);
     std::cout << "Test #1: ";
     assert(derived_ans == expected_ans);
-    std::cout << "Passed!" << std::endl;
+    std::cout << "Binary search test passed!" << std::endl;
 }
 
 /*******************************************************************************
@@ -117,7 +117,7 @@ void test2() {
     uint64_t derived_ans = search::binary_search::binarySearch(arr, 25);
     std::cout << "Test #2: ";
     assert(derived_ans == expected_ans);
-    std::cout << "Passed!" << std::endl;
+    std::cout << "Binary search test passed!" << std::endl;
 }
 
 /*******************************************************************************
@@ -134,7 +134,7 @@ void test3() {
     uint64_t derived_ans = search::binary_search::binarySearch(arr, 31);
     std::cout << "Test #3: ";
     assert(derived_ans == expected_ans);
-    std::cout << "Passed!" << std::endl;
+    std::cout << "Binary search test passed!" << std::endl;
 }
 
 /*******************************************************************************
